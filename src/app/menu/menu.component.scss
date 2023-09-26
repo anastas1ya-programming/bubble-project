@@ -1,0 +1,57 @@
+hr{
+  margin: 0
+}
+.menuList{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: flex-start;
+}
+.goodsCard{
+  width: 210px;
+  padding: 1.7rem;
+  min-width: 210px;
+}
+.goodsImage{
+  display: flex;
+  justify-content: center;
+}
+.goodsDescription{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+img{
+
+  width: 160px
+}
+.order{
+  display: flex;
+  justify-content: space-between;
+}
+.price, .cart{
+  padding: 0 1rem;
+  margin-top: 0.2rem
+}
+.price{
+  background: rgba(128, 128, 128, 0.25);
+  border-radius: 15px;
+  width: 50%;
+
+}
+.cart{
+  margin: auto;
+}
+.cart img{
+  width: 30px;
+}
+.btnCover{
+  display: flex;
+  justify-content: space-between;
+}
+.btn2{
+  border: none;
+  background: transparent;
+  font-family: 'Comfortaa', cursive;
+  font-size: 0.9rem;
+
+}
