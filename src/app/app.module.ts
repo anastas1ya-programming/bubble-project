@@ -10,6 +10,7 @@ import { FranchiseComponent } from './franchise/franchise.component';
 import { CartComponent } from './cart/cart.component';
 import {FormsModule} from "@angular/forms";
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HeaderComponent } from './header/header.component';
     ContactsComponent,
     FranchiseComponent,
     CartComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

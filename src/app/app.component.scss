@@ -2,12 +2,19 @@
 .landing{
   background: linear-gradient(123deg, #D2B48C 15.21%, rgba(195, 81, 0, 0.88) 84.07%);
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
 
 }
 .content{
 
   padding: 0 10rem;
+  flex: 1;
 
+
+}
+.footer{
 
 }
 

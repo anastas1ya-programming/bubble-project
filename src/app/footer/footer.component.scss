@@ -1,0 +1,28 @@
+hr{
+  color: #845628;
+  filter: blur(1px);
+;
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  color:  #492e0f;
+
+ }
+
+a{
+  color:  #492e0f;
+  text-decoration: none;
+  padding: 1rem;
+}
+h2{
+
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+  //font-family: 'Jacques Francois', serif;
+  font-size: 1.3rem;
+}
+p{
+  font-family: 'Mulish', sans-serif;
+  font-size: 1rem;
+}
