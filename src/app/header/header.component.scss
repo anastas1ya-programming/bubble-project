@@ -16,17 +16,43 @@ img{
   background: transparent;
 
 
+
+
+
+
 }
-.LastItem, .ListItem{
+.nav{
+  @media(max-width: 790px){
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+a{
   color: black;
   text-decoration: none;
 
 }
+li{
+  list-style-type: none;
+}
+li:hover{
+  border-bottom: 2px solid saddlebrown;
+  background: rgba(132, 86, 40, 0.28);
+  padding: 3px
+}
+.LastItem:hover{
+  border-bottom: none;
+  background: none;
+}
+
 .ListItem{
   margin-right: 3rem;
 }
 .LastItem{
   margin-left: auto;
+
+
 
 }
 .logo{

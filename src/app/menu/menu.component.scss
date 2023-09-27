@@ -6,6 +6,12 @@ hr{
   flex-wrap: wrap;
 
   justify-content: flex-start;
+
+  @media (max-width: 970px){
+    justify-content: space-evenly;
+
+
+  }
 }
 .goodsCard{
   width: 210px;
@@ -48,6 +54,11 @@ img{
   display: flex;
   justify-content: space-between;
 }
+button:hover{
+  background: rgba(128, 128, 128, 0.25) ;
+  font-weight: bold;
+}
+
 .btn2{
   border: none;
   background: transparent;
